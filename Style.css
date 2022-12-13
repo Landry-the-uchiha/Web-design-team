@@ -5,7 +5,7 @@
 }
 body
 {
-	background-color: gray;
+	background-color: dimgray;
 }
 #container
 {
@@ -15,14 +15,16 @@ body
 header
 {
 	font-size: 70px;
-	background-color: yellow;
+	background-color: white;
+	color: firebrick;
 	text-align: center;
 }
 nav
 {
-	background-color: red;
+	background-color: firebrick;
 	font-size: 50px;
 	text-align: center;
+	padding: 10px;
 }
 nav li
 {
@@ -46,7 +48,7 @@ nav a:active
 }
 section
 {
-	background-color: blue;
+	background-color: darkgray;
 	width: 760px;
 	clear: right;
 	float: left;
@@ -54,31 +56,60 @@ section
 	padding: 10px;
 	font-size: 22px;
 }
+img
+{
+	padding: 10px;
+}
 aside
 {
-	background-color: green;
+	background-color: gray;
 	width: 160px;
 	float: right;
 	height: 600px;
 	list-style-position: inside;
 	padding: 10px;
+	font-size: 24px;
+	line-height: 36px;
 }
 footer
 {
-	background-color: purple;
+	background-color: lightgray;
 	height: 70px;
 	clear: right;
 	padding: 10px;
 }
 table, th, td {
-  border: 5px solid blue;
+  border: 5px solid black;
   border-collapse: collapse;
   padding: 5px;
 }
 th, td {
-  background-color: #96D4D4;
+  background-color: firebrick;
+  color: white;
 }
 h2
+{
+	text-decoration: underline;
+}
+figure
+{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+figcaption
+{
+	max-width: 127px;
+}
+#carlist
+{
+	width: 605px;
+}
+#carinfo
+{
+	width: 315px;
+}
+.info
 {
 	text-decoration: underline;
 }
