@@ -113,3 +113,50 @@ figcaption
 {
 	text-decoration: underline;
 }
+#reps
+{
+	height: 1500px;
+}
+.repImageCol
+{
+	margin-top: 10px;
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 0px;
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+}
+.repDesCol
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+}
+.repImage
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 220px;
+	height: 250px;
+	display: inline-block;
+	text-align: center;
+}
+.repDes
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 220px;
+	height: 250px;
+	display: inline-block;
+	text-align: center;
+}
