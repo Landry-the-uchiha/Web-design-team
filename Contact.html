@@ -9,6 +9,7 @@
 	 <meta name= "keywords" content= "web,page,template"> 
 		<title>used cars</title>
 		<link href ="Style.css" rel ="stylesheet">
+		<script src="CarScript.js"></script>
 	
 	
 	</head>
@@ -33,13 +34,13 @@
 			</ul>
 		</nav>
 	
-		<section id="reps">
+		<section id="replist">
 			<div class="repImageCol">
 				<h2>Sales Represenatives</h2>
 				<br>
 				<div class="repImage">
 					<h3>Jacob</h3>
-					<img src="images/Man1.jpg" width="200px" height="200px" alt="Picture of Jacob">
+					<img src="images/Man1.jpg" width="200px" height="200px" alt="Picture of Jacob" onclick="Jacob()">
 				</div>
 				
 				<div class="repImage">
@@ -59,18 +60,6 @@
 			</div>
 			
 			<div class="repDesCol">
-				<div class="repDes">
-					<p>
-						Full Name:<br>
-						Jacob Smith Kern <br>
-						<br>
-						Experience:<br>
-						4 Years <br>
-						<br>
-						Phone Number:<br>
-						(202) 456-1111 <br>
-					</p>
-				</div>
 				
 				<div class="repDes">
 					<p>
@@ -117,12 +106,12 @@
 			
 		</section>
 		
-		<aside>
-			
-			
-			
-			
-		
+		<aside id="repinfo">
+			<img id="image" width="300px" src="images/text.png" alt="Click a car on the left to show an enhanced view on the right."></img>
+			<p class="info">Full Name</p><p id="fullname"></p>
+			<p class="info">Experience</p><p id="experience"></p>
+			<p class="info">Phone Number</p><p id="phone"></p>
+			<p class="info">Email</p><p id="email"></p>
 		</aside>
 	
 	<footer>

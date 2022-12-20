@@ -113,9 +113,14 @@ figcaption
 {
 	text-decoration: underline;
 }
-#reps
+#replist
 {
 	height: 1500px;
+	width: 605px;
+}
+#repinfo
+{
+	width: 315px;
 }
 .repImageCol
 {
