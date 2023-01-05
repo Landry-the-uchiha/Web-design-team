@@ -30,11 +30,38 @@ function Highlander()
 	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, 0 Accidents)";
 	document.getElementById("cost").innerHTML = "$16,749";
 }
+
+
+
 function Jacob()
 {
-	document.getElementById("image").src = "images/FordF150.jpg";
+	document.getElementById("image").src = "images/Man1.jpg";
 	document.getElementById("fullname").innerHTML = "Jacob Smith Kern";
 	document.getElementById("experience").innerHTML = "4 Years";
 	document.getElementById("phone").innerHTML = "(202) 456-1111";
 	document.getElementById("email").innerHTML = "jskern@markscarlot.com";
+}
+function Walter()
+{
+	document.getElementById("image").src = "images/Man2.png";
+	document.getElementById("fullname").innerHTML = "Walter Hardwelt White";
+	document.getElementById("experience").innerHTML = "7 Years";
+	document.getElementById("phone").innerHTML = "(419) 267-3331";
+	document.getElementById("email").innerHTML = "whwhite@markscarlot.com";
+}
+function Tim()
+{
+	document.getElementById("image").src = "images/Man3.jpg";
+	document.getElementById("fullname").innerHTML = "Tim Timothy Timmers";
+	document.getElementById("experience").innerHTML = "2 Years";
+	document.getElementById("phone").innerHTML = "(419) 445-1555";
+	document.getElementById("email").innerHTML = "tttimmers@markscarlot.com";
+}
+function Isaac()
+{
+	document.getElementById("image").src = "images/Man4.png";
+	document.getElementById("fullname").innerHTML = "Isaac Newton III";
+	document.getElementById("experience").innerHTML = "1 Year";
+	document.getElementById("phone").innerHTML = "(248) 434-5508";
+	document.getElementById("email").innerHTML = "inewton3@markscarlot.com";
 }

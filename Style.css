@@ -115,21 +115,19 @@ figcaption
 }
 #replist
 {
-	height: 1500px;
+	height: 1100px;
 	width: 605px;
 }
 #repinfo
 {
+	height: 1100px;
 	width: 315px;
 }
 .repImageCol
 {
 	margin-top: 10px;
-	border: 5px solid black;
-	border-collapse: collapse;
 	padding: 5px;
 	margin-bottom: 0px;
-	width: 250px;
 	display: inline-block;
 	text-align: center;
 }
@@ -164,4 +162,13 @@ figcaption
 	height: 250px;
 	display: inline-block;
 	text-align: center;
+}
+#MarksPromise
+{
+	width: 300px;
+}
+#homestock
+{
+	list-style-position: inside;
+	width: 620px;
 }
