@@ -46,6 +46,10 @@ nav a:active
 {
 	color: orange;
 }
+nav img
+{
+	vertical-align: middle;
+}
 section
 {
 	background-color: white;
@@ -169,8 +173,18 @@ figcaption
 {
 	width: 960px;
 }
-#homestock
+.fullwidthsection
 {
 	list-style-position: inside;
 	width: 960px;
+	height: 0px;
+}
+#nowidthaside
+{
+	width: 0px;
+}
+.homesection
+{
+	width: 960px;
+	height: 350px;
 }
