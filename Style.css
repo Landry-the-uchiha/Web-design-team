@@ -5,7 +5,7 @@
 }
 body
 {
-	background-color: dimgray;
+	background-color: white;
 }
 #container
 {
@@ -24,13 +24,13 @@ nav
 	background-color: firebrick;
 	font-size: 50px;
 	text-align: center;
-	padding: 10px;
 }
 nav li
 {
 	display: inline;
 	list-style-type: none;
 	padding-right: 60px;
+	text-align: center;
 }
 nav a
 {
@@ -46,9 +46,13 @@ nav a:active
 {
 	color: orange;
 }
+nav img
+{
+	vertical-align: middle;
+}
 section
 {
-	background-color: darkgray;
+	background-color: white;
 	width: 760px;
 	clear: right;
 	float: left;
@@ -62,7 +66,7 @@ img
 }
 aside
 {
-	background-color: gray;
+	background-color: white;
 	width: 160px;
 	float: right;
 	height: 600px;
@@ -74,16 +78,18 @@ aside
 footer
 {
 	background-color: lightgray;
-	height: 70px;
+	height: 200px;
 	clear: right;
 	padding: 10px;
 }
-table, th, td {
+table, th, td 
+{
   border: 5px solid black;
   border-collapse: collapse;
   padding: 5px;
 }
-th, td {
+th, td 
+{
   background-color: firebrick;
   color: white;
 }
@@ -112,4 +118,78 @@ figcaption
 .info
 {
 	text-decoration: underline;
+}
+#replist
+{
+	height: 1100px;
+	width: 605px;
+}
+#repinfo
+{
+	height: 1100px;
+	width: 315px;
+}
+.repImageCol
+{
+	margin-top: 10px;
+	padding: 5px;
+	margin-bottom: 0px;
+	display: inline-block;
+	text-align: center;
+}
+.repDesCol
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+}
+.repImage
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 220px;
+	height: 250px;
+	display: inline-block;
+	text-align: center;
+}
+.repDes
+{
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 220px;
+	height: 250px;
+	display: inline-block;
+	text-align: center;
+}
+#MarksPromise
+{
+	width: 960px;
+	height: 320px;
+}
+.fullwidthsection
+{
+	list-style-position: inside;
+	width: 960px;
+	height: 0px;
+}
+#nowidthaside
+{
+	width: 0px;
+}
+.homesection
+{
+	width: 960px;
+	height: 500px;
+}
+#aboutsection
+{
+	height: 0px;
 }
