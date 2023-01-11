@@ -8,7 +8,7 @@ function FordF150()
 }
 function Corolla() 
 {
-	document.getElementById("image").src = "images/1998Corolla.jpg";
+	document.getElementById("image").src = "images/1998Corolla.png";
 	document.getElementById("description").innerHTML = "1998 Toyota Corolla";
 	document.getElementById("color").innerHTML = "Gray";
 	document.getElementById("condition").innerHTML = "Very Used (15+ Years, >1 Accidents)";
@@ -24,7 +24,7 @@ function Captiva()
 }
 function Equinox() 
 {
-	document.getElementById("image").src = "images/Equinox.jpg";
+	document.getElementById("image").src = "images/Equinox.png";
 	document.getElementById("description").innerHTML = "2010 Chevrolet Equinox";
 	document.getElementById("color").innerHTML = "Blue";
 	document.getElementById("condition").innerHTML = "Used (10-15 Years, 0 Accidents)";
