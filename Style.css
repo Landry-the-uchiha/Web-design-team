@@ -172,6 +172,7 @@ figcaption
 #MarksPromise
 {
 	width: 960px;
+	height: 320px;
 }
 .fullwidthsection
 {
@@ -186,5 +187,9 @@ figcaption
 .homesection
 {
 	width: 960px;
-	height: 350px;
+	height: 500px;
+}
+#aboutsection
+{
+	height: 0px;
 }

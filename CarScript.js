@@ -43,8 +43,8 @@ function Jacob()
 }
 function Walter()
 {
-	document.getElementById("image").src = "images/Man2.png";
-	document.getElementById("fullname").innerHTML = "Walter Hardwelt White";
+	document.getElementById("image").src = "images/Kyle.png";
+	document.getElementById("fullname").innerHTML = "Walter Hartwell White";
 	document.getElementById("experience").innerHTML = "7 Years";
 	document.getElementById("phone").innerHTML = "(419) 267-3331";
 	document.getElementById("email").innerHTML = "whwhite@markscarlot.com";
