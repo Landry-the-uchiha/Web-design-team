@@ -77,7 +77,7 @@ aside
 }
 footer
 {
-	background-color: lightgray;
+	background-color: white;
 	height: 200px;
 	clear: right;
 	padding: 10px;
@@ -121,12 +121,12 @@ figcaption
 }
 #replist
 {
-	height: 1100px;
+	height: 700px;
 	width: 605px;
 }
 #repinfo
 {
-	height: 1100px;
+	height: 700px;
 	width: 315px;
 }
 .repImageCol
@@ -187,9 +187,19 @@ figcaption
 .homesection
 {
 	width: 960px;
-	height: 500px;
+	height: 600px;
 }
 #aboutsection
 {
-	height: 0px;
+	height: 700px;
+	width: 960px;
+}
+.hometext
+{
+	font-size: 26px;
+	line-height: 1.5;
+}
+.bottomlogo
+{
+	margin-left: 350px;
 }

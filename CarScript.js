@@ -1,37 +1,67 @@
 function FordF150() 
 {
-	document.getElementById("image").src = "images/FordF150.jpg";
-	document.getElementById("description").innerHTML = "2019 Ford F-150";
-	document.getElementById("color").innerHTML = "Dark Gray";
-	document.getElementById("condition").innerHTML = "Lightly Used (1-4 Years, No Accidents)";
+	document.getElementById("image").src = "images/2016F150.jpg";
+	document.getElementById("description").innerHTML = "2016 Ford F-150";
+	document.getElementById("color").innerHTML = "White";
+	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, No Accidents)";
 	document.getElementById("cost").innerHTML = "$42,999";
 }
 function Corolla() 
 {
-	document.getElementById("image").src = "images/1999Corolla.png";
-	document.getElementById("description").innerHTML = "1999 Toyota Corolla";
-	document.getElementById("color").innerHTML = "Sandrift Metallic";
+	document.getElementById("image").src = "images/1998Corolla.jpg";
+	document.getElementById("description").innerHTML = "1998 Toyota Corolla";
+	document.getElementById("color").innerHTML = "Gray";
 	document.getElementById("condition").innerHTML = "Very Used (15+ Years, >1 Accidents)";
-	document.getElementById("cost").innerHTML = "$1,499";
+	document.getElementById("cost").innerHTML = "$1,999";
 }
-function Charger() 
+function Captiva() 
 {
-	document.getElementById("image").src = "images/06Charger.jpg";
-	document.getElementById("description").innerHTML = "2006 Dodge Charger";
-	document.getElementById("color").innerHTML = "Yellow";
-	document.getElementById("condition").innerHTML = "Used (15+ Years, 0 Accidents)";
-	document.getElementById("cost").innerHTML = "$7,999";
-}
-function Highlander() 
-{
-	document.getElementById("image").src = "images/Highlander.webp";
-	document.getElementById("description").innerHTML = "2014 Toyota Highlander";
-	document.getElementById("color").innerHTML = "Silver";
+	document.getElementById("image").src = "images/2012Captiva.jpg";
+	document.getElementById("description").innerHTML = "2012 Chevrolet Captiva";
+	document.getElementById("color").innerHTML = "Black";
 	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, 0 Accidents)";
-	document.getElementById("cost").innerHTML = "$16,749";
+	document.getElementById("cost").innerHTML = "$11,999";
 }
-
-
+function Equinox() 
+{
+	document.getElementById("image").src = "images/Equinox.jpg";
+	document.getElementById("description").innerHTML = "2010 Chevrolet Equinox";
+	document.getElementById("color").innerHTML = "Blue";
+	document.getElementById("condition").innerHTML = "Used (10-15 Years, 0 Accidents)";
+	document.getElementById("cost").innerHTML = "$3,599";
+}
+function TownCountry() 
+{
+	document.getElementById("image").src = "images/2012TownCountry.jpeg";
+	document.getElementById("description").innerHTML = "2012 Chrysler Town and Country";
+	document.getElementById("color").innerHTML = "Light Blue";
+	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, No Accidents)";
+	document.getElementById("cost").innerHTML = "$5,499";
+}
+function Tiguan() 
+{
+	document.getElementById("image").src = "images/2011Tiguan.jpg";
+	document.getElementById("description").innerHTML = "2011 Volkswagen Tiguan";
+	document.getElementById("color").innerHTML = "Blue";
+	document.getElementById("condition").innerHTML = "Used (10-15 Years, 0 Accidents)";
+	document.getElementById("cost").innerHTML = "$8,999";
+}
+function Malibu() 
+{
+	document.getElementById("image").src = "images/2012Malibu.jpg";
+	document.getElementById("description").innerHTML = "2012 Chevrolet Malibu";
+	document.getElementById("color").innerHTML = "Black";
+	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, 0 Accidents)";
+	document.getElementById("cost").innerHTML = "$7,499";
+}
+function Yukon() 
+{
+	document.getElementById("image").src = "images/2003YukonXL.jpg";
+	document.getElementById("description").innerHTML = "2003 GMC YukonXL";
+	document.getElementById("color").innerHTML = "Black";
+	document.getElementById("condition").innerHTML = "Very Used (15+ Years, >1 Accidents)";
+	document.getElementById("cost").innerHTML = "$5,099";
+}
 
 function Jacob()
 {
@@ -51,7 +81,7 @@ function Walter()
 }
 function Tim()
 {
-	document.getElementById("image").src = "images/Man3.jpg";
+	document.getElementById("image").src = "images/Blake.jpg";
 	document.getElementById("fullname").innerHTML = "Tim Timothy Timmers";
 	document.getElementById("experience").innerHTML = "2 Years";
 	document.getElementById("phone").innerHTML = "(419) 445-1555";
@@ -59,7 +89,7 @@ function Tim()
 }
 function Isaac()
 {
-	document.getElementById("image").src = "images/Man4.png";
+	document.getElementById("image").src = "images/Landry.jpg";
 	document.getElementById("fullname").innerHTML = "Isaac Newton III";
 	document.getElementById("experience").innerHTML = "1 Year";
 	document.getElementById("phone").innerHTML = "(248) 434-5508";
