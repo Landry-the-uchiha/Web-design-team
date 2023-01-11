@@ -1,6 +1,6 @@
 function FordF150() 
 {
-	document.getElementById("image").src = "images/2016F150.jpg";
+	document.getElementById("image").src = "images/2016F150.png";
 	document.getElementById("description").innerHTML = "2016 Ford F-150";
 	document.getElementById("color").innerHTML = "White";
 	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, No Accidents)";
@@ -16,7 +16,7 @@ function Corolla()
 }
 function Captiva() 
 {
-	document.getElementById("image").src = "images/2012Captiva.jpg";
+	document.getElementById("image").src = "images/2012Captiva.png";
 	document.getElementById("description").innerHTML = "2012 Chevrolet Captiva";
 	document.getElementById("color").innerHTML = "Black";
 	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, 0 Accidents)";
@@ -32,7 +32,7 @@ function Equinox()
 }
 function TownCountry() 
 {
-	document.getElementById("image").src = "images/2012TownCountry.jpeg";
+	document.getElementById("image").src = "images/2012TownCounty.png";
 	document.getElementById("description").innerHTML = "2012 Chrysler Town and Country";
 	document.getElementById("color").innerHTML = "Light Blue";
 	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, No Accidents)";
@@ -40,7 +40,7 @@ function TownCountry()
 }
 function Tiguan() 
 {
-	document.getElementById("image").src = "images/2011Tiguan.jpg";
+	document.getElementById("image").src = "images/2011Tiguan.png";
 	document.getElementById("description").innerHTML = "2011 Volkswagen Tiguan";
 	document.getElementById("color").innerHTML = "Blue";
 	document.getElementById("condition").innerHTML = "Used (10-15 Years, 0 Accidents)";
@@ -48,7 +48,7 @@ function Tiguan()
 }
 function Malibu() 
 {
-	document.getElementById("image").src = "images/2012Malibu.jpg";
+	document.getElementById("image").src = "images/2012Malibu.png";
 	document.getElementById("description").innerHTML = "2012 Chevrolet Malibu";
 	document.getElementById("color").innerHTML = "Black";
 	document.getElementById("condition").innerHTML = "Lightly Used (5-10 Years, 0 Accidents)";
@@ -56,7 +56,7 @@ function Malibu()
 }
 function Yukon() 
 {
-	document.getElementById("image").src = "images/2003YukonXL.jpg";
+	document.getElementById("image").src = "images/2003YukonXL.png";
 	document.getElementById("description").innerHTML = "2003 GMC YukonXL";
 	document.getElementById("color").innerHTML = "Black";
 	document.getElementById("condition").innerHTML = "Very Used (15+ Years, >1 Accidents)";
@@ -81,7 +81,7 @@ function Walter()
 }
 function Tim()
 {
-	document.getElementById("image").src = "images/Blake.jpg";
+	document.getElementById("image").src = "images/Blake.png";
 	document.getElementById("fullname").innerHTML = "Tim Timothy Timmers";
 	document.getElementById("experience").innerHTML = "2 Years";
 	document.getElementById("phone").innerHTML = "(419) 445-1555";
@@ -89,7 +89,7 @@ function Tim()
 }
 function Isaac()
 {
-	document.getElementById("image").src = "images/Landry.jpg";
+	document.getElementById("image").src = "images/Landry.png";
 	document.getElementById("fullname").innerHTML = "Isaac Newton III";
 	document.getElementById("experience").innerHTML = "1 Year";
 	document.getElementById("phone").innerHTML = "(248) 434-5508";
