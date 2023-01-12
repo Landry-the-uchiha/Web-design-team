@@ -65,7 +65,7 @@ function Yukon()
 
 function Jacob()
 {
-	document.getElementById("image").src = "images/Man1.jpg";
+	document.getElementById("image").src = "images/Connor.png";
 	document.getElementById("fullname").innerHTML = "Jacob Smith Kern";
 	document.getElementById("experience").innerHTML = "4 Years";
 	document.getElementById("phone").innerHTML = "(202) 456-1111";
